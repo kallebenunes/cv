@@ -317,9 +317,18 @@ footer i:hover {
         margin-bottom: 20px;
        
     }
+    
+    .cards-experiencia {
+        flex-wrap: wrap;
+    }
+
+    .card-experiencia {
+        flex-basis: 70%;
+        margin-bottom: 20px;
+    }
 }
 
-@media (max-width: 545px) {
+@media (max-width: 650px) {
     main {
         margin-top: 50px;
     }
@@ -336,14 +345,6 @@ footer i:hover {
         justify-content: center;
     }
 
-    .cards-experiencia {
-        flex-wrap: wrap;
-    }
-
-    .card-experiencia {
-        flex-basis: 70%;
-        margin-bottom: 20px;
-    }
 
     .section-tecnologia {
         flex-basis: 70%;
