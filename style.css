@@ -1,0 +1,422 @@
+@import url('fonts/fonts.css');
+
+* {
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box;
+    text-decoration: none;
+    font-size: 100%;
+    list-style: none;
+    
+}
+
+img {
+    width: 100%;
+}
+
+body {
+    background: #150E29;
+    font-family: bebas, 'Arial', 'Helvetica';
+    color: white;
+}
+
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #150E29;
+}
+
+main {
+    margin-top: 130px;
+}
+
+p {
+    font-family: quicksand, 'Arial', 'Helvetica';
+    font-size: 1.3rem;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+hr {
+    border-color: #131314;
+}
+
+.title-section {
+    font-size: 3rem;
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 10px 10px ; 
+
+}
+
+.btn-toggle {
+    display: none;
+}
+
+/*Menu*/
+
+.menu {
+    color: white;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    padding: .5rem 0;
+    align-items: center;
+    box-shadow: 1px 1px 5px rgb(6, 7, 7) ;
+    
+}
+
+.menu ul {
+   display: flex;
+   
+}
+
+.menu li {
+    padding-right: 10px;
+}
+
+.menu a {
+    color: white;
+}
+
+.menu a:hover {
+    color: #32BACB;
+    
+}
+
+.nav-brand img {
+    max-width: 75px;
+    padding-left: 10px;
+}
+
+/*Sobre*/
+.sobre img {
+    max-width: 70%;
+    border-radius: 50%;
+}
+
+.sobre {
+    display: flex;  
+    margin: 40px 0;
+}
+
+.sobre h1 {
+    font-size: 4rem;
+    line-height: 1;
+}
+
+
+.bio {
+    font-size: 2rem;
+    letter-spacing: 0.1rem;
+    max-width: 50%;
+}
+
+.bio h2 {
+    font-family: quicksand, 'Arial', 'Helvetica';
+    font-size: 1.5rem;
+    font-style: italic;
+    margin-bottom: 30px;
+}
+
+.foto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Experiência*/
+.experiencia {
+    margin: 30px 0;
+}
+
+.cards-experiencia {
+    margin: 0 auto;
+    max-width: 90%;
+    display: flex;
+}
+
+.card-experiencia {
+    background: #32BACB;
+    flex-grow: 1;
+    border-radius: 5px;
+    margin: 0 10px;
+    padding: 10px 20px;
+    color: #150E29;
+    font-size: 1.5rem;
+    flex-basis: 33%;
+    
+}
+
+.card-experiencia h1 {
+    margin: 10px auto;
+}
+
+/*Container Formacao*/
+
+.container-formacao {
+    background: #32BACB;
+    width: 100%;
+    
+}
+
+.section-formacao {
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 20px 10px;
+}
+
+.section-formacao h1 {
+    font-size: 2.3rem;
+    line-height: 1;
+
+}
+
+.section-formacao h2 {
+    font-size: 1.8rem;
+    color: #150E29;
+}
+
+.section-formacao h3 {
+    font-size: 1.8rem;
+    line-height: 2;
+}
+
+/*Tecnologias*/
+
+
+
+.container-tecnologias {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 1 %;
+    justify-content: center;
+}
+
+.section-tecnologia {
+    flex-basis: 30%;
+    text-align: center;
+    width: 150px;
+    height: 250px;
+    margin: 10px 20px  30px 20px;
+   
+}
+
+.section-tecnologia i {
+    font-size: 10rem;
+    margin-bottom: 20px;
+}
+
+.section-tecnologia h6 {
+    margin: 0 50px;
+    font-size: 1.3rem;
+}
+
+.barra-progresso {
+    height: 20px;
+    width: 100%;
+    background: white;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+
+.progresso {
+    height: 20px;
+    width: 50%;
+    background: #32BACB;
+}
+
+
+/*Contato*/
+.contato {
+    padding: 30px 0 60px 0;
+    background: #32BACB;
+    word-break: break-all;
+}
+.cards-contato {
+    margin: 0 calc(5% + 10px);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card-contato {
+    background: white;
+    color: #150E29;
+    
+    flex-basis: 32%;
+    padding: 20px;
+    text-align: center;
+    font-size: 1.2rem;
+    flex-wrap: wrap;
+}
+
+.card-contato {
+    font-size: 2rem;
+}
+
+.card-contato a {
+    color: #150E29;
+}
+
+.card-contato a:hover {
+    color: #32BACB;
+    transition: 0.2s;
+}
+
+/*Footer*/
+
+footer {
+    margin: 0 auto;
+    background: #150E29;
+}
+
+footer p {
+    font-size: 1rem;
+    text-align: center;
+    padding-top: 20px;
+    color: #ffffff;
+}
+
+footer ul {
+    display: flex;
+    justify-content: center;
+}
+
+footer i {
+    color: #ffffff;
+    font-size: 2rem;
+    padding:0 20px  20px 0;
+}
+
+
+footer i:hover {
+    color: #32BACB;
+    transition: 0.2s;
+}
+
+@media(max-width: 910px){
+    .sobre {
+        flex-wrap: wrap;
+    }
+
+    .bio {
+        max-width: 100%;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .cards-contato {
+        flex-wrap: wrap;
+    }
+
+    .card-contato {
+        flex-basis: 100%;
+        margin-bottom: 20px;
+       
+    }
+}
+
+@media (max-width: 545px) {
+    main {
+        margin-top: 50px;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
+    .foto{
+        max-width: 100%;
+    }
+
+    .sobre {
+        justify-content: center;
+    }
+
+    .cards-experiencia {
+        flex-wrap: wrap;
+    }
+
+    .card-experiencia {
+        flex-basis: 70%;
+        margin-bottom: 20px;
+    }
+
+    .section-tecnologia {
+        flex-basis: 70%;
+    }
+
+    header {
+        position: static    ;
+    }
+
+  .menu ul {
+      display: block;
+      position: absolute;
+      top: 90px;
+      z-index: 10;
+      width: 100%;
+      background: #150E29;
+      padding: 20px 0;
+  }
+
+  .menu ul a {
+      padding: 0 20px;
+      font-size: 2rem;
+  }
+
+  .btn-toggle {
+      display: block;
+      color: blue;
+  }
+
+  a.btn-toggle  {
+    color: transparent;
+}
+
+a.btn-toggle:hover  {
+  
+    color: transparent;
+}
+
+a.btn-toggle::before {
+    content: "";
+    background: white;
+    width: 50px;
+    height: 5px;
+    display: block;
+    box-shadow: 0px 20px 0px snow, 0px 10px 0px #e2e2e2;
+    position: absolute;
+    right: 15px
+}
+
+.menu ul {
+    display: none;
+}
+.menu ul.show {
+    display: block;
+    animation: toDown 0.5s forwards;
+}
+
+.menu li {
+    animation: toDown 1s forwards;
+}
+
+}
+
+
+@keyframes toDown {
+    from {
+        max-height: 0;
+        opacity: 0;
+        
+    }
+    to{
+        max-height: 300px;
+        opacity: 1;
+        
+    }
+}
