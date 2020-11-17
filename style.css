@@ -37,6 +37,7 @@ p {
     font-size: 1.3rem;
     line-height: 1.5;
     margin-bottom: 20px;
+    padding-right: 10px;
 }
 hr {
     border-color: #131314;
@@ -419,5 +420,11 @@ a.btn-toggle::before {
         max-height: 300px;
         opacity: 1;
         
+    }
+}
+
+@media (min-wdith: 911px){
+    .bio p { 
+        padding-right: 30px;
     }
 }
